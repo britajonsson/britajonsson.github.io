@@ -1,29 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Brita Jonsson</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style type="text/css">
-
-<!--
-
-header { background-color: #7ad0e3; height: 35%;}
-body {text-align: center; font-family: BlinkMacSystemFont, "Segoe UI", Palatino; padding: 0; margin: 0; }
-footer { background-color: #c5d9dd; position: absolute; botton: 0; width: 100%; left: 0; height: 20%;}
-img {border: 0; padding: 0; }
-h1 {font-size: 400%;}
-h2 {font-size: 130%}
-a:link, a:visited, a:hover, a:active { text-decoration: none; color: black;}
-
--->
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Brita Jonsson">
+    <title>Brita Jonsson</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-<header>
-	<h1>Brita Jonsson</h1>
-</header>
-<body bgcolor="#DFDFDF">
-	<h2>- will fill this space soon. Promise <3</h2>
+<!--
+    Plan is to:
+    - Add content to section, would be nice if that could make the footer
+      truly belong to the bottom...
+    - Add a small icon-photo in the header (as the CV)
+    - Think about other pages, like contact, writing etc
+-->
+<body>
+    <header>
+        <div class="row head-content align-middle">
+            <div class="col-md-7 my-auto offset-md-2 pl-4">
+                    <h1>Brita Jonsson</h1>
+            </div>
+            <div class="col-md-2 d-none d-md-block my-auto">
+                    <h1>&#9728;</h1>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <a class="text-center" href="https://www.linkedin.com/in/brita-jonsson-23b12894" target="_blank">
+            <img class="mx-auto d-block logo m-5" src="icons/linkedin-sign.png" alt="linkedin-logo">
+        </a>
+        <h2 class="pb-5 text-center">I will fill this space soon. Promise &#10084;</h2>
+    </section>
+    <footer class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-3"><p>&copy; 2018 Brita Jonsson</p></div>
+            <div class="col-md-1 d-none d-md-block"><p>|</p></div>
+            <div class="col-md-2"><p>Icons designed by <a href="https://www.flaticon.com/packs/font-awesome" target="_blank">Dave Gandy from Flaticon</a></p></div>
+        </div>
+    </footer>
 </body>
-<footer bgcolor="#c5d9dd">
-	<p>© Brita Jonsson - 2017 | <a href="https://www.flaticon.com/packs/font-awesome" target="_blank">Icons designed by Dave Gandy from Flaticon</a></p>
-</footer>
 </html>
